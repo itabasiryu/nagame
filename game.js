@@ -1,5 +1,7 @@
 (() => {
-    localStorage.clear(); // 開発環境だけリセット
+    // if (location.hostname === 'localhost') {
+    //     localStorage.clear(); // 開発環境だけリセット
+    //   }
     const schedules = {
         "1.mp4": [
             { time: 2, side: "right" },
